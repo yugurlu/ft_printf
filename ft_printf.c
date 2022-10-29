@@ -59,7 +59,6 @@ int	ft_findformat(va_list args, const char c)
 
 int	ft_printf(const char *str, ...)
 {
-	int		i;
 	int		result;
 	va_list	args;
 
