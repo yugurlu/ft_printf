@@ -61,8 +61,7 @@ int	ft_printf(const char *str, ...)
 {
 	int		result;
 	va_list	args;
-
-	i = 0;
+	
 	result = 0;
 	va_start(args, str);
 	result = ft_findpercentsign(args, str);
